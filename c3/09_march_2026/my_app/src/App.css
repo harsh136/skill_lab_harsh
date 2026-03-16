@@ -1,0 +1,25 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 40px;
+}
+.intro {
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
