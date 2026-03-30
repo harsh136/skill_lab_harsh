@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li span {
+  cursor: pointer;
+  flex: 1;
+  text-align: left;
+}
